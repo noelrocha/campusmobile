@@ -21,9 +21,9 @@ or alternatively using `brew cask install fastlane`
 fastlane ios beta
 ```
 Efetua o build e envia para o Testflight
-### ios testar
+### ios test
 ```
-fastlane ios testar
+fastlane ios test
 ```
 Executa os testes automatizados da aplicação
 

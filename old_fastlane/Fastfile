@@ -4,14 +4,12 @@ platform :ios do
 
   desc "Efetua o build e envia para o Testflight"
   lane :beta do
-    #increment_build_number
-    testar
     build_app(workspace: "CI-CD-CampusMobile.xcworkspace", scheme: "CI-CD-CampusMobile")    
-    upload_to_testflight(skip_waiting_for_build_processing: true)
+    upload_to_testflight
   end
 
   desc "Executa os testes automatizados da aplicação"
-  lane :testar do
+  lane :test do
     scan(workspace: "CI-CD-CampusMobile.xcworkspace", scheme: "CI-CD-CampusMobile", output_types: "html")
   end  
 
