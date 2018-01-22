@@ -1,0 +1,5 @@
+app_identifier "br.com.claro.campusmobile" # The bundle identifier of your app
+apple_id "noelrocha@gmail.com" # Your Apple email address
+
+itc_team_id "118364402" # iTunes Connect Team ID
+team_id "7F3N7RFQ38" # Developer Portal Team ID

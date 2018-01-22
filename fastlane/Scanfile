@@ -1,0 +1,4 @@
+workspace "CI-CD-CampusMobile.xcworkspace" 
+scheme "CI-CD-CampusMobile"
+output_types "html"
+open_report true

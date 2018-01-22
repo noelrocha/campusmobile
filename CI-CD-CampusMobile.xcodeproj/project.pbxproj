@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E6BC9078D0EF0B1ED9EB3E9 /* libPods-CI-CD-CampusMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 056132AA47D2BF852D62EEB8 /* libPods-CI-CD-CampusMobileTests.a */; };
+		B385594BF0CF2703EA1323F0 /* libPods-CI-CD-CampusMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B56CFA02A9371E0352E0E5 /* libPods-CI-CD-CampusMobile.a */; };
+		EC3F36CF2016416300348836 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3F36B42016416300348836 /* iTunesArtwork@1x.png */; };
+		EC3F36D02016416300348836 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3F36B52016416300348836 /* iTunesArtwork@2x.png */; };
+		EC3F36D12016416300348836 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3F36B62016416300348836 /* iTunesArtwork@3x.png */; };
+		EC758EEE20162B5100D28905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC758EED20162B5100D28905 /* main.m */; };
+		EC758EF120162B5100D28905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC758EF020162B5100D28905 /* AppDelegate.m */; };
+		EC758EF420162B5100D28905 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC758EF320162B5100D28905 /* ViewController.m */; };
+		EC758EF720162B5100D28905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC758EF520162B5100D28905 /* Main.storyboard */; };
+		EC758EF920162B5100D28905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC758EF820162B5100D28905 /* Assets.xcassets */; };
+		EC758EFC20162B5100D28905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC758EFA20162B5100D28905 /* LaunchScreen.storyboard */; };
+		EC758F0720162B5100D28905 /* CI_CD_CampusMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC758F0620162B5100D28905 /* CI_CD_CampusMobileTests.m */; };
+		EC758F1220162D2C00D28905 /* claro-hdtv-logo-1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC758F1120162D2C00D28905 /* claro-hdtv-logo-1.png */; };
+		EC758F1320162D2C00D28905 /* claro-hdtv-logo-1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC758F1120162D2C00D28905 /* claro-hdtv-logo-1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC758F0320162B5100D28905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC758EE120162B5000D28905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC758EE820162B5000D28905;
+			remoteInfo = "CI-CD-CampusMobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F4194A8601F82E6F93A6CF /* Pods-CI-CD-CampusMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CI-CD-CampusMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-CI-CD-CampusMobile/Pods-CI-CD-CampusMobile.release.xcconfig"; sourceTree = "<group>"; };
+		056132AA47D2BF852D62EEB8 /* libPods-CI-CD-CampusMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CI-CD-CampusMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B56CFA02A9371E0352E0E5 /* libPods-CI-CD-CampusMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CI-CD-CampusMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		528DBC27D03EF1620284D353 /* Pods-CI-CD-CampusMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CI-CD-CampusMobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CI-CD-CampusMobileTests/Pods-CI-CD-CampusMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AA1169F202434ABE7E76388 /* Pods-CI-CD-CampusMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CI-CD-CampusMobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CI-CD-CampusMobileTests/Pods-CI-CD-CampusMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		B71295E84155A09FF090C8DA /* Pods-CI-CD-CampusMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CI-CD-CampusMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CI-CD-CampusMobile/Pods-CI-CD-CampusMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		EC3F36B42016416300348836 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		EC3F36B52016416300348836 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		EC3F36B62016416300348836 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		EC758EE920162B5100D28905 /* CI-CD-CampusMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CI-CD-CampusMobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC758EED20162B5100D28905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC758EEF20162B5100D28905 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC758EF020162B5100D28905 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC758EF220162B5100D28905 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC758EF320162B5100D28905 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC758EF620162B5100D28905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC758EF820162B5100D28905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC758EFB20162B5100D28905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC758EFD20162B5100D28905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC758F0220162B5100D28905 /* CI-CD-CampusMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CI-CD-CampusMobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC758F0620162B5100D28905 /* CI_CD_CampusMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CI_CD_CampusMobileTests.m; sourceTree = "<group>"; };
+		EC758F0820162B5100D28905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC758F1120162D2C00D28905 /* claro-hdtv-logo-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "claro-hdtv-logo-1.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC758EE620162B5000D28905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B385594BF0CF2703EA1323F0 /* libPods-CI-CD-CampusMobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC758EFF20162B5100D28905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6BC9078D0EF0B1ED9EB3E9 /* libPods-CI-CD-CampusMobileTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54AA78BDC2CE39122013AC90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B71295E84155A09FF090C8DA /* Pods-CI-CD-CampusMobile.debug.xcconfig */,
+				00F4194A8601F82E6F93A6CF /* Pods-CI-CD-CampusMobile.release.xcconfig */,
+				528DBC27D03EF1620284D353 /* Pods-CI-CD-CampusMobileTests.debug.xcconfig */,
+				9AA1169F202434ABE7E76388 /* Pods-CI-CD-CampusMobileTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD4FDA5B32C5D5B42FB92E71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42B56CFA02A9371E0352E0E5 /* libPods-CI-CD-CampusMobile.a */,
+				056132AA47D2BF852D62EEB8 /* libPods-CI-CD-CampusMobileTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC758EE020162B5000D28905 = {
+			isa = PBXGroup;
+			children = (
+				EC758EEB20162B5100D28905 /* CI-CD-CampusMobile */,
+				EC758F0520162B5100D28905 /* CI-CD-CampusMobileTests */,
+				EC758EEA20162B5100D28905 /* Products */,
+				54AA78BDC2CE39122013AC90 /* Pods */,
+				CD4FDA5B32C5D5B42FB92E71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC758EEA20162B5100D28905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC758EE920162B5100D28905 /* CI-CD-CampusMobile.app */,
+				EC758F0220162B5100D28905 /* CI-CD-CampusMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC758EEB20162B5100D28905 /* CI-CD-CampusMobile */ = {
+			isa = PBXGroup;
+			children = (
+				EC3F36B42016416300348836 /* iTunesArtwork@1x.png */,
+				EC3F36B52016416300348836 /* iTunesArtwork@2x.png */,
+				EC3F36B62016416300348836 /* iTunesArtwork@3x.png */,
+				EC758F1120162D2C00D28905 /* claro-hdtv-logo-1.png */,
+				EC758EEF20162B5100D28905 /* AppDelegate.h */,
+				EC758EF020162B5100D28905 /* AppDelegate.m */,
+				EC758EF220162B5100D28905 /* ViewController.h */,
+				EC758EF320162B5100D28905 /* ViewController.m */,
+				EC758EF520162B5100D28905 /* Main.storyboard */,
+				EC758EF820162B5100D28905 /* Assets.xcassets */,
+				EC758EFA20162B5100D28905 /* LaunchScreen.storyboard */,
+				EC758EFD20162B5100D28905 /* Info.plist */,
+				EC758EEC20162B5100D28905 /* Supporting Files */,
+			);
+			path = "CI-CD-CampusMobile";
+			sourceTree = "<group>";
+		};
+		EC758EEC20162B5100D28905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC758EED20162B5100D28905 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC758F0520162B5100D28905 /* CI-CD-CampusMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC758F0620162B5100D28905 /* CI_CD_CampusMobileTests.m */,
+				EC758F0820162B5100D28905 /* Info.plist */,
+			);
+			path = "CI-CD-CampusMobileTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC758EE820162B5000D28905 /* CI-CD-CampusMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC758F0B20162B5100D28905 /* Build configuration list for PBXNativeTarget "CI-CD-CampusMobile" */;
+			buildPhases = (
+				F8888C2B158547BE89A0546A /* [CP] Check Pods Manifest.lock */,
+				EC758EE520162B5000D28905 /* Sources */,
+				EC758EE620162B5000D28905 /* Frameworks */,
+				EC758EE720162B5000D28905 /* Resources */,
+				F92B32B557A0C9FFC3F2BDA3 /* [CP] Embed Pods Frameworks */,
+				FC7B563983404B502F953EE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CI-CD-CampusMobile";
+			productName = "CI-CD-CampusMobile";
+			productReference = EC758EE920162B5100D28905 /* CI-CD-CampusMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC758F0120162B5100D28905 /* CI-CD-CampusMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC758F0E20162B5100D28905 /* Build configuration list for PBXNativeTarget "CI-CD-CampusMobileTests" */;
+			buildPhases = (
+				E8CBEEE5B421D2CB930BF087 /* [CP] Check Pods Manifest.lock */,
+				EC758EFE20162B5100D28905 /* Sources */,
+				EC758EFF20162B5100D28905 /* Frameworks */,
+				EC758F0020162B5100D28905 /* Resources */,
+				EB44A7B6E3AF836F7644895A /* [CP] Embed Pods Frameworks */,
+				8215BCDD7CFB8B44BC92A563 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC758F0420162B5100D28905 /* PBXTargetDependency */,
+			);
+			name = "CI-CD-CampusMobileTests";
+			productName = "CI-CD-CampusMobileTests";
+			productReference = EC758F0220162B5100D28905 /* CI-CD-CampusMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC758EE120162B5000D28905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NET;
+				TargetAttributes = {
+					EC758EE820162B5000D28905 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7F3N7RFQ38;
+						ProvisioningStyle = Manual;
+					};
+					EC758F0120162B5100D28905 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5MTJV72H66;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC758EE820162B5000D28905;
+					};
+				};
+			};
+			buildConfigurationList = EC758EE420162B5000D28905 /* Build configuration list for PBXProject "CI-CD-CampusMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC758EE020162B5000D28905;
+			productRefGroup = EC758EEA20162B5100D28905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC758EE820162B5000D28905 /* CI-CD-CampusMobile */,
+				EC758F0120162B5100D28905 /* CI-CD-CampusMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC758EE720162B5000D28905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3F36D02016416300348836 /* iTunesArtwork@2x.png in Resources */,
+				EC3F36CF2016416300348836 /* iTunesArtwork@1x.png in Resources */,
+				EC758F1220162D2C00D28905 /* claro-hdtv-logo-1.png in Resources */,
+				EC758EFC20162B5100D28905 /* LaunchScreen.storyboard in Resources */,
+				EC758EF920162B5100D28905 /* Assets.xcassets in Resources */,
+				EC758EF720162B5100D28905 /* Main.storyboard in Resources */,
+				EC3F36D12016416300348836 /* iTunesArtwork@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC758F0020162B5100D28905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC758F1320162D2C00D28905 /* claro-hdtv-logo-1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8215BCDD7CFB8B44BC92A563 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CI-CD-CampusMobileTests/Pods-CI-CD-CampusMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CBEEE5B421D2CB930BF087 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CI-CD-CampusMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB44A7B6E3AF836F7644895A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CI-CD-CampusMobileTests/Pods-CI-CD-CampusMobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8888C2B158547BE89A0546A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CI-CD-CampusMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92B32B557A0C9FFC3F2BDA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CI-CD-CampusMobile/Pods-CI-CD-CampusMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7B563983404B502F953EE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CI-CD-CampusMobile/Pods-CI-CD-CampusMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC758EE520162B5000D28905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC758EF420162B5100D28905 /* ViewController.m in Sources */,
+				EC758EF120162B5100D28905 /* AppDelegate.m in Sources */,
+				EC758EEE20162B5100D28905 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC758EFE20162B5100D28905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC758F0720162B5100D28905 /* CI_CD_CampusMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC758F0420162B5100D28905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC758EE820162B5000D28905 /* CI-CD-CampusMobile */;
+			targetProxy = EC758F0320162B5100D28905 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC758EF520162B5100D28905 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC758EF620162B5100D28905 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC758EFA20162B5100D28905 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC758EFB20162B5100D28905 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC758F0920162B5100D28905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC758F0A20162B5100D28905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC758F0C20162B5100D28905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71295E84155A09FF090C8DA /* Pods-CI-CD-CampusMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 7F3N7RFQ38;
+				INFOPLIST_FILE = "CI-CD-CampusMobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.claro.campusmobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1e4de525-97bd-40a6-9935-8dab5e2ceca2";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: br.com.claro.campusmobile";
+			};
+			name = Debug;
+		};
+		EC758F0D20162B5100D28905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F4194A8601F82E6F93A6CF /* Pods-CI-CD-CampusMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 7F3N7RFQ38;
+				INFOPLIST_FILE = "CI-CD-CampusMobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.claro.campusmobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1e4de525-97bd-40a6-9935-8dab5e2ceca2";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: br.com.claro.campusmobile";
+			};
+			name = Release;
+		};
+		EC758F0F20162B5100D28905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528DBC27D03EF1620284D353 /* Pods-CI-CD-CampusMobileTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5MTJV72H66;
+				INFOPLIST_FILE = "CI-CD-CampusMobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.claro.campusmobile.CI-CD-CampusMobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CI-CD-CampusMobile.app/CI-CD-CampusMobile";
+			};
+			name = Debug;
+		};
+		EC758F1020162B5100D28905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA1169F202434ABE7E76388 /* Pods-CI-CD-CampusMobileTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5MTJV72H66;
+				INFOPLIST_FILE = "CI-CD-CampusMobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.claro.campusmobile.CI-CD-CampusMobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CI-CD-CampusMobile.app/CI-CD-CampusMobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC758EE420162B5000D28905 /* Build configuration list for PBXProject "CI-CD-CampusMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC758F0920162B5100D28905 /* Debug */,
+				EC758F0A20162B5100D28905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC758F0B20162B5100D28905 /* Build configuration list for PBXNativeTarget "CI-CD-CampusMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC758F0C20162B5100D28905 /* Debug */,
+				EC758F0D20162B5100D28905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC758F0E20162B5100D28905 /* Build configuration list for PBXNativeTarget "CI-CD-CampusMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC758F0F20162B5100D28905 /* Debug */,
+				EC758F1020162B5100D28905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC758EE120162B5000D28905 /* Project object */;
+}
